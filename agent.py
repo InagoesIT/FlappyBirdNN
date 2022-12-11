@@ -19,10 +19,9 @@ class Agent:
         self.epsilon = 1  # Exploration rate
         self.epsilon_min = 0.1  # Minimal exploration rate
         self.epsilon_decay = 0.995  # Decay rate for epsilon
-        self.update_rate = 10000  # Number of steps until updating the target network
 
         self.model = Agent.create_neural_network()
-        self.memory = deque(maxlen=5000)
+        self.memory = deque(maxlen=10000)
         self.weight_backup_file = "weights.h5"
 
         self.epochs = 5

@@ -14,7 +14,6 @@ class Game:
         self.batch_size = 20
 
     def run(self, episodes):
-        self.agent.create_neural_network()
         max_reward = [0, -5]
 
         for episode in range(episodes):
