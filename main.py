@@ -13,4 +13,4 @@ https://towardsdatascience.com/reinforcement-learning-in-python-with-flappy-bird
 
 if __name__ == '__main__':
     game = Game()
-    game.run(episodes=70)
+    game.run(episodes=100)

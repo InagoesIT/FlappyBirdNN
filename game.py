@@ -61,5 +61,5 @@ class Game:
         plt.ylabel("rewards")
         plt.xlabel("episodes")
         plt.legend()
-        plt.savefig("graph2.png")
+        plt.savefig("graph.png")
 

@@ -54,7 +54,7 @@ class Agent:
         return self.actions[np.argmax(q_values)]
 
     def save_model(self):
-        self.model.save_weights("weights_2_epochs.h5")
+        self.model.save_weights(self.weight_backup_file)
 
     def remember(self, state, action, reward, next_state, is_game_over):
         action_index = 1
