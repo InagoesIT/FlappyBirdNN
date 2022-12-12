@@ -15,8 +15,8 @@ class Agent:
         self.actions = [self.do_nothing, self.go_up]
 
         # Q-learning hyperparameters
-        self.gamma = 0.7  # Discount rate
-        self.epsilon = 0.7  # Exploration rate
+        self.gamma = 0.95  # Discount rate
+        self.epsilon = 0.6  # Exploration rate
         self.epsilon_min = 0.1  # Minimal exploration rate
         self.epsilon_decay = 0.99  # Decay rate for epsilon
 

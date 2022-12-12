@@ -55,13 +55,12 @@ class Game:
                        f" with epsilon {self.agent.epsilon}\n"
             file.write(log_text)
             print(log_text)
-
-        file.close()
         self.agent.save_model()
         print(f"~~~ Max_reward: {max_reward} ~~~~")
 
         file.write(f"Total rewards for {episodes} {total_rewards}")
         print(f"Total rewards for {episodes} {total_rewards}")
+        file.close()
 
         plt.plot(range(episodes), rewards)
         plt.ylabel("rewards")
