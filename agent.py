@@ -16,15 +16,16 @@ class Agent:
 
         # Q-learning hyperparameters
         self.gamma = 0.7  # Discount rate
-        self.epsilon = 1  # Exploration rate
+        self.epsilon = 0.7  # Exploration rate
         self.epsilon_min = 0.1  # Minimal exploration rate
-        self.epsilon_decay = 0.995  # Decay rate for epsilon
+        self.epsilon_decay = 0.99  # Decay rate for epsilon
 
-        self.model = Agent.create_neural_network()
-        self.memory = deque(maxlen=10000)
         self.weight_backup_file = "weights.h5"
+        self.model = Agent.create_neural_network(self.weight_backup_file)
+        self.memory = deque(maxlen=30000)
 
-        self.epochs = 5
+        self.epochs = 2
+        self.batch_size = 100
 
     '''
     current_state:
@@ -45,16 +46,15 @@ class Agent:
 
     def choose_action(self, current_state: dict):
         if np.random.rand() <= self.epsilon:
-            if np.random.randint(0, 1) < 0.5:
+            if np.random.rand() < 0.5:
                 return self.go_up
             return self.do_nothing
-
         encoded_state = Agent.get_encoded_state(current_state)
-        q_values = self.model.predict(np.array([encoded_state]), batch_size=1)
+        q_values = self.model.predict(np.array([encoded_state]), batch_size=1, verbose=0)
         return self.actions[np.argmax(q_values)]
 
     def save_model(self):
-        self.model.save(self.weight_backup_file)
+        self.model.save_weights("weights_2_epochs.h5")
 
     def remember(self, state, action, reward, next_state, is_game_over):
         action_index = 1
@@ -66,7 +66,7 @@ class Agent:
         self.memory.append((encoded_state, action_index, reward, encoded_next_state, is_game_over))
 
     @staticmethod
-    def create_neural_network() -> keras.Sequential:
+    def create_neural_network(weights_path) -> keras.Sequential:
         model = keras.Sequential()
         model.add(layers.Input(8, name="layer1"))
         model.add(layers.Dense(80, activation="relu", name="layer2"))
@@ -77,12 +77,14 @@ class Agent:
                       loss='mse',
                       metrics=['accuracy'])
 
+        model.load_weights(weights_path)
+
         return model
 
-    def learn(self, batch_size):
-        if len(self.memory) < batch_size:
+    def learn(self):
+        if len(self.memory) < self.batch_size:
             return
-        sample_batch = random.sample(self.memory, batch_size)
+        sample_batch = random.sample(self.memory, self.batch_size)
 
         states = []
         targets = []
@@ -90,12 +92,12 @@ class Agent:
         for state, action_index, reward, next_state, is_game_over in sample_batch:
             opposite_action_index = 1 - action_index
             target = [0, 0]
-            predicted = self.model.predict(np.array([state]))
+            predicted = self.model.predict(np.array([state]), verbose=0)
             target[opposite_action_index] = float(predicted[0][opposite_action_index])
             target[action_index] = reward
 
             if not is_game_over:
-                target[action_index] = reward + self.gamma * np.max(self.model.predict(np.array([next_state])))
+                target[action_index] = reward + self.gamma * np.max(self.model.predict(np.array([next_state]), verbose=0))
 
             states.append(list(state))
             targets.append(list(target))
