@@ -1337,3 +1337,304 @@ ITERATION 11
 Total rewards for 100 -9693.0
 
 ITERATION 12
+-----> episode ended 0 and lasted 0.793203592300415 and got the reward -100.0 with epsilon 0.6
+
+50/50 [==============================] - 1s 927us/step - loss: 43.7220 - accuracy: 0.7200
+-----> episode ended 1 and lasted 8.949228286743164 and got the reward -100.0 with epsilon 0.594
+
+50/50 [==============================] - 0s 837us/step - loss: 62.2953 - accuracy: 0.7300
+-----> episode ended 2 and lasted 8.672181606292725 and got the reward -100.0 with epsilon 0.5880599999999999
+
+50/50 [==============================] - 0s 989us/step - loss: 45.8313 - accuracy: 0.7700
+-----> episode ended 3 and lasted 8.593809366226196 and got the reward -100.0 with epsilon 0.5821793999999999
+
+50/50 [==============================] - 0s 895us/step - loss: 1.0706 - accuracy: 0.6600
+-----> episode ended 4 and lasted 9.21976089477539 and got the reward -100.0 with epsilon 0.5763576059999999
+
+50/50 [==============================] - 0s 933us/step - loss: 25.6464 - accuracy: 0.6800
+-----> episode ended 5 and lasted 8.339189529418945 and got the reward -100.0 with epsilon 0.5705940299399999
+
+50/50 [==============================] - 0s 912us/step - loss: 14.7709 - accuracy: 0.5800
+-----> episode ended 6 and lasted 8.43128752708435 and got the reward -100.0 with epsilon 0.5648880896405999
+
+50/50 [==============================] - 0s 935us/step - loss: 11.0288 - accuracy: 0.8400
+-----> episode ended 7 and lasted 9.561708927154541 and got the reward -100.0 with epsilon 0.5592392087441939
+
+50/50 [==============================] - 0s 933us/step - loss: 28.1074 - accuracy: 0.6700
+-----> episode ended 8 and lasted 9.036234617233276 and got the reward -100.0 with epsilon 0.553646816656752
+
+50/50 [==============================] - 0s 956us/step - loss: 28.0599 - accuracy: 0.7900
+-----> episode ended 9 and lasted 9.946072340011597 and got the reward -99.0 with epsilon 0.5481103484901845
+
+50/50 [==============================] - 0s 953us/step - loss: 29.6363 - accuracy: 0.6800
+-----> episode ended 10 and lasted 8.909535646438599 and got the reward -99.0 with epsilon 0.5426292450052826
+
+50/50 [==============================] - 0s 941us/step - loss: 44.1699 - accuracy: 0.7000
+-----> episode ended 11 and lasted 8.342510223388672 and got the reward -100.0 with epsilon 0.5372029525552298
+
+50/50 [==============================] - 0s 960us/step - loss: 35.5890 - accuracy: 0.8000
+-----> episode ended 12 and lasted 9.266551494598389 and got the reward -100.0 with epsilon 0.5318309230296775
+
+50/50 [==============================] - 0s 914us/step - loss: 5.3967 - accuracy: 0.8200
+-----> episode ended 13 and lasted 9.032995223999023 and got the reward -100.0 with epsilon 0.5265126137993807
+
+50/50 [==============================] - 0s 906us/step - loss: 22.5840 - accuracy: 0.7600
+-----> episode ended 14 and lasted 9.70133900642395 and got the reward -100.0 with epsilon 0.521247487661387
+
+50/50 [==============================] - 0s 899us/step - loss: 65.7988 - accuracy: 0.7200
+-----> episode ended 15 and lasted 9.037501811981201 and got the reward -100.0 with epsilon 0.516035012784773
+
+50/50 [==============================] - 0s 939us/step - loss: 3.1537 - accuracy: 0.6800
+-----> episode ended 16 and lasted 9.165885925292969 and got the reward -100.0 with epsilon 0.5108746626569253
+
+50/50 [==============================] - 0s 916us/step - loss: 38.6636 - accuracy: 0.6600
+-----> episode ended 17 and lasted 9.524439811706543 and got the reward -100.0 with epsilon 0.505765916030356
+
+50/50 [==============================] - 0s 910us/step - loss: 31.1911 - accuracy: 0.7900
+-----> episode ended 18 and lasted 9.199050188064575 and got the reward -100.0 with epsilon 0.5007082568700525
+
+50/50 [==============================] - 0s 950us/step - loss: 41.5083 - accuracy: 0.7700
+-----> episode ended 19 and lasted 9.578785181045532 and got the reward -100.0 with epsilon 0.49570117430135197
+
+50/50 [==============================] - 0s 919us/step - loss: 7.3997 - accuracy: 0.6800
+-----> episode ended 20 and lasted 8.809936046600342 and got the reward -100.0 with epsilon 0.4907441625583384
+
+50/50 [==============================] - 0s 923us/step - loss: 31.7493 - accuracy: 0.7100
+-----> episode ended 21 and lasted 9.090327501296997 and got the reward -100.0 with epsilon 0.48583672093275504
+
+50/50 [==============================] - 0s 932us/step - loss: 46.6346 - accuracy: 0.7600
+-----> episode ended 22 and lasted 9.682846546173096 and got the reward -100.0 with epsilon 0.4809783537234275
+
+50/50 [==============================] - 0s 921us/step - loss: 3.6534 - accuracy: 0.6500
+-----> episode ended 23 and lasted 9.140321969985962 and got the reward -100.0 with epsilon 0.47616857018619324
+
+50/50 [==============================] - 0s 955us/step - loss: 52.8245 - accuracy: 0.6400
+-----> episode ended 24 and lasted 9.495954751968384 and got the reward -99.0 with epsilon 0.4714068844843313
+
+50/50 [==============================] - 0s 958us/step - loss: 87.6837 - accuracy: 0.7300
+-----> episode ended 25 and lasted 9.607822179794312 and got the reward -100.0 with epsilon 0.466692815639488
+
+50/50 [==============================] - 0s 944us/step - loss: 108.5099 - accuracy: 0.7100
+-----> episode ended 26 and lasted 9.355080604553223 and got the reward -99.0 with epsilon 0.4620258874830931
+
+50/50 [==============================] - 0s 947us/step - loss: 58.5640 - accuracy: 0.8200
+-----> episode ended 27 and lasted 9.836894989013672 and got the reward -100.0 with epsilon 0.45740562860826217
+
+50/50 [==============================] - 0s 951us/step - loss: 126.2753 - accuracy: 0.7800
+-----> episode ended 28 and lasted 9.16069769859314 and got the reward -100.0 with epsilon 0.4528315723221795
+
+50/50 [==============================] - 0s 919us/step - loss: 57.6379 - accuracy: 0.8800
+-----> episode ended 29 and lasted 9.563522100448608 and got the reward -100.0 with epsilon 0.4483032565989577
+
+50/50 [==============================] - 0s 955us/step - loss: 45.6508 - accuracy: 0.7700
+-----> episode ended 30 and lasted 9.210870265960693 and got the reward -100.0 with epsilon 0.4438202240329681
+
+50/50 [==============================] - 0s 901us/step - loss: 102.2943 - accuracy: 0.6600
+-----> episode ended 31 and lasted 8.942429304122925 and got the reward -100.0 with epsilon 0.4393820217926384
+
+50/50 [==============================] - 0s 970us/step - loss: 46.4749 - accuracy: 0.6900
+-----> episode ended 32 and lasted 9.734368324279785 and got the reward -100.0 with epsilon 0.434988201574712
+
+50/50 [==============================] - 0s 914us/step - loss: 61.9354 - accuracy: 0.5900
+-----> episode ended 33 and lasted 9.110956192016602 and got the reward -100.0 with epsilon 0.4306383195589649
+
+50/50 [==============================] - 0s 971us/step - loss: 107.7716 - accuracy: 0.5600
+-----> episode ended 34 and lasted 9.250584602355957 and got the reward -100.0 with epsilon 0.42633193636337524
+
+50/50 [==============================] - 0s 923us/step - loss: 36.0632 - accuracy: 0.8000
+-----> episode ended 35 and lasted 9.238222599029541 and got the reward -100.0 with epsilon 0.42206861699974146
+
+50/50 [==============================] - 0s 902us/step - loss: 45.9610 - accuracy: 0.8300
+-----> episode ended 36 and lasted 8.616800546646118 and got the reward -100.0 with epsilon 0.41784793082974403
+
+50/50 [==============================] - 0s 908us/step - loss: 94.6430 - accuracy: 0.6400
+-----> episode ended 37 and lasted 9.727001428604126 and got the reward -100.0 with epsilon 0.4136694515214466
+
+50/50 [==============================] - 0s 929us/step - loss: 43.8068 - accuracy: 0.7700
+-----> episode ended 38 and lasted 9.286052942276001 and got the reward -100.0 with epsilon 0.4095327570062321
+
+50/50 [==============================] - 0s 928us/step - loss: 47.1982 - accuracy: 0.8100
+-----> episode ended 39 and lasted 9.641136646270752 and got the reward -100.0 with epsilon 0.4054374294361698
+
+50/50 [==============================] - 0s 968us/step - loss: 58.8544 - accuracy: 0.6800
+-----> episode ended 40 and lasted 9.009756565093994 and got the reward -100.0 with epsilon 0.40138305514180805
+
+50/50 [==============================] - 0s 908us/step - loss: 140.3843 - accuracy: 0.6000
+-----> episode ended 41 and lasted 8.906067609786987 and got the reward -100.0 with epsilon 0.39736922459039
+
+50/50 [==============================] - 0s 920us/step - loss: 84.1613 - accuracy: 0.6900
+-----> episode ended 42 and lasted 9.47830057144165 and got the reward -100.0 with epsilon 0.3933955323444861
+
+50/50 [==============================] - 0s 960us/step - loss: 22.5176 - accuracy: 0.8000
+-----> episode ended 43 and lasted 9.459364414215088 and got the reward -100.0 with epsilon 0.3894615770210412
+
+50/50 [==============================] - 0s 926us/step - loss: 71.5031 - accuracy: 0.7100
+-----> episode ended 44 and lasted 8.93789291381836 and got the reward -100.0 with epsilon 0.3855669612508308
+
+50/50 [==============================] - 0s 948us/step - loss: 19.7341 - accuracy: 0.7300
+-----> episode ended 45 and lasted 9.727473497390747 and got the reward -100.0 with epsilon 0.38171129163832246
+
+50/50 [==============================] - 0s 955us/step - loss: 33.4673 - accuracy: 0.7500
+-----> episode ended 46 and lasted 9.311888933181763 and got the reward -100.0 with epsilon 0.37789417872193926
+
+50/50 [==============================] - 0s 944us/step - loss: 65.6861 - accuracy: 0.7500
+-----> episode ended 47 and lasted 9.668580055236816 and got the reward -100.0 with epsilon 0.3741152369347199
+
+50/50 [==============================] - 0s 982us/step - loss: 48.1903 - accuracy: 0.7100
+-----> episode ended 48 and lasted 9.03053069114685 and got the reward -100.0 with epsilon 0.3703740845653727
+
+50/50 [==============================] - 0s 929us/step - loss: 9.9481 - accuracy: 0.7000
+-----> episode ended 49 and lasted 9.619382619857788 and got the reward -100.0 with epsilon 0.36667034371971896
+
+50/50 [==============================] - 0s 977us/step - loss: 38.6777 - accuracy: 0.6400
+-----> episode ended 50 and lasted 9.63744330406189 and got the reward -100.0 with epsilon 0.36300364028252174
+
+50/50 [==============================] - 0s 924us/step - loss: 44.2721 - accuracy: 0.6000
+-----> episode ended 51 and lasted 9.310680627822876 and got the reward -100.0 with epsilon 0.3593736038796965
+
+50/50 [==============================] - 0s 966us/step - loss: 55.2062 - accuracy: 0.6200
+-----> episode ended 52 and lasted 9.872413873672485 and got the reward -100.0 with epsilon 0.35577986784089954
+
+50/50 [==============================] - 0s 941us/step - loss: 10.1988 - accuracy: 0.7200
+-----> episode ended 53 and lasted 9.311086416244507 and got the reward -100.0 with epsilon 0.35222206916249055
+
+50/50 [==============================] - 0s 963us/step - loss: 102.6925 - accuracy: 0.6600
+-----> episode ended 54 and lasted 9.4099862575531 and got the reward -100.0 with epsilon 0.34869984847086566
+
+50/50 [==============================] - 0s 943us/step - loss: 40.7785 - accuracy: 0.6600
+-----> episode ended 55 and lasted 9.341554880142212 and got the reward -100.0 with epsilon 0.345212849986157
+
+50/50 [==============================] - 0s 945us/step - loss: 6.7939 - accuracy: 0.7000
+-----> episode ended 56 and lasted 9.365473508834839 and got the reward -100.0 with epsilon 0.3417607214862954
+
+50/50 [==============================] - 0s 934us/step - loss: 34.7890 - accuracy: 0.6200
+-----> episode ended 57 and lasted 9.600656747817993 and got the reward -100.0 with epsilon 0.33834311427143243
+
+50/50 [==============================] - 0s 937us/step - loss: 101.6119 - accuracy: 0.6400
+-----> episode ended 58 and lasted 9.010641098022461 and got the reward -100.0 with epsilon 0.3349596831287181
+
+50/50 [==============================] - 0s 937us/step - loss: 46.8056 - accuracy: 0.6300
+-----> episode ended 59 and lasted 9.786214828491211 and got the reward -100.0 with epsilon 0.33161008629743094
+
+50/50 [==============================] - 0s 915us/step - loss: 61.3052 - accuracy: 0.7400
+-----> episode ended 60 and lasted 9.29910683631897 and got the reward -100.0 with epsilon 0.32829398543445665
+
+50/50 [==============================] - 0s 916us/step - loss: 22.2797 - accuracy: 0.7300
+-----> episode ended 61 and lasted 9.308744668960571 and got the reward -100.0 with epsilon 0.32501104558011207
+
+50/50 [==============================] - 0s 940us/step - loss: 70.9592 - accuracy: 0.7900
+-----> episode ended 62 and lasted 9.356959104537964 and got the reward -100.0 with epsilon 0.3217609351243109
+
+50/50 [==============================] - 0s 962us/step - loss: 38.0953 - accuracy: 0.7100
+-----> episode ended 63 and lasted 9.087888240814209 and got the reward -100.0 with epsilon 0.3185433257730678
+
+50/50 [==============================] - 0s 885us/step - loss: 4.3921 - accuracy: 0.8100
+-----> episode ended 64 and lasted 10.05293583869934 and got the reward -100.0 with epsilon 0.31535789251533713
+
+50/50 [==============================] - 0s 908us/step - loss: 47.9121 - accuracy: 0.7600
+-----> episode ended 65 and lasted 11.050363779067993 and got the reward -98.0 with epsilon 0.31220431359018375
+
+50/50 [==============================] - 0s 906us/step - loss: 37.6428 - accuracy: 0.7800
+-----> episode ended 66 and lasted 9.58701491355896 and got the reward -100.0 with epsilon 0.3090822704542819
+
+50/50 [==============================] - 0s 961us/step - loss: 3.9648 - accuracy: 0.7200
+-----> episode ended 67 and lasted 9.746058702468872 and got the reward -100.0 with epsilon 0.3059914477497391
+
+50/50 [==============================] - 0s 929us/step - loss: 54.6362 - accuracy: 0.7100
+-----> episode ended 68 and lasted 9.272629737854004 and got the reward -100.0 with epsilon 0.3029315332722417
+
+50/50 [==============================] - 0s 906us/step - loss: 6.0905 - accuracy: 0.7200
+-----> episode ended 69 and lasted 10.036433696746826 and got the reward -100.0 with epsilon 0.29990221793951927
+
+50/50 [==============================] - 0s 930us/step - loss: 30.5817 - accuracy: 0.7100
+-----> episode ended 70 and lasted 9.27173399925232 and got the reward -100.0 with epsilon 0.2969031957601241
+
+50/50 [==============================] - 0s 950us/step - loss: 44.5347 - accuracy: 0.7000
+-----> episode ended 71 and lasted 9.73792815208435 and got the reward -99.0 with epsilon 0.29393416380252285
+
+50/50 [==============================] - 0s 933us/step - loss: 38.3870 - accuracy: 0.6800
+-----> episode ended 72 and lasted 9.595564842224121 and got the reward -100.0 with epsilon 0.2909948221644976
+
+50/50 [==============================] - 0s 971us/step - loss: 44.8462 - accuracy: 0.7700
+-----> episode ended 73 and lasted 9.143545389175415 and got the reward -100.0 with epsilon 0.28808487394285265
+
+50/50 [==============================] - 0s 921us/step - loss: 28.1910 - accuracy: 0.6700
+-----> episode ended 74 and lasted 10.123198509216309 and got the reward -100.0 with epsilon 0.28520402520342414
+
+50/50 [==============================] - 0s 930us/step - loss: 23.0394 - accuracy: 0.7100
+-----> episode ended 75 and lasted 9.57850432395935 and got the reward -99.0 with epsilon 0.2823519849513899
+
+50/50 [==============================] - 0s 1ms/step - loss: 55.2895 - accuracy: 0.6800
+-----> episode ended 76 and lasted 10.931833744049072 and got the reward -99.0 with epsilon 0.279528465101876
+
+50/50 [==============================] - 0s 954us/step - loss: 74.8689 - accuracy: 0.7800
+-----> episode ended 77 and lasted 9.064208269119263 and got the reward -100.0 with epsilon 0.27673318045085726
+
+50/50 [==============================] - 0s 916us/step - loss: 46.7127 - accuracy: 0.7600
+-----> episode ended 78 and lasted 9.303393840789795 and got the reward -100.0 with epsilon 0.2739658486463487
+
+50/50 [==============================] - 0s 962us/step - loss: 41.0392 - accuracy: 0.8100
+-----> episode ended 79 and lasted 10.203401327133179 and got the reward -4.0 with epsilon 0.2712261901598852
+
+50/50 [==============================] - 0s 956us/step - loss: 32.3400 - accuracy: 0.6800
+-----> episode ended 80 and lasted 9.390188217163086 and got the reward -99.0 with epsilon 0.26851392825828635
+
+50/50 [==============================] - 0s 903us/step - loss: 42.6595 - accuracy: 0.7800
+-----> episode ended 81 and lasted 9.930476188659668 and got the reward -100.0 with epsilon 0.2658287889757035
+
+50/50 [==============================] - 0s 929us/step - loss: 29.6852 - accuracy: 0.7300
+-----> episode ended 82 and lasted 9.93560791015625 and got the reward -100.0 with epsilon 0.2631705010859465
+
+50/50 [==============================] - 0s 890us/step - loss: 15.1511 - accuracy: 0.6500
+-----> episode ended 83 and lasted 9.751252174377441 and got the reward -100.0 with epsilon 0.260538796075087
+
+50/50 [==============================] - 0s 912us/step - loss: 66.4236 - accuracy: 0.7700
+-----> episode ended 84 and lasted 11.353902101516724 and got the reward -99.0 with epsilon 0.2579334081143361
+
+50/50 [==============================] - 0s 896us/step - loss: 19.7055 - accuracy: 0.7600
+-----> episode ended 85 and lasted 9.75464391708374 and got the reward -100.0 with epsilon 0.25535407403319277
+
+50/50 [==============================] - 0s 942us/step - loss: 29.5050 - accuracy: 0.6800
+-----> episode ended 86 and lasted 10.224846124649048 and got the reward -100.0 with epsilon 0.25280053329286084
+
+50/50 [==============================] - 0s 906us/step - loss: 34.8428 - accuracy: 0.7900
+-----> episode ended 87 and lasted 9.928614616394043 and got the reward -99.0 with epsilon 0.2502725279599322
+
+50/50 [==============================] - 0s 893us/step - loss: 54.8465 - accuracy: 0.6900
+-----> episode ended 88 and lasted 9.678432703018188 and got the reward -100.0 with epsilon 0.24776980268033288
+
+50/50 [==============================] - 0s 911us/step - loss: 73.1726 - accuracy: 0.7200
+-----> episode ended 89 and lasted 10.229753494262695 and got the reward -100.0 with epsilon 0.24529210465352955
+
+50/50 [==============================] - 0s 958us/step - loss: 6.7341 - accuracy: 0.7400
+-----> episode ended 90 and lasted 9.856626749038696 and got the reward -100.0 with epsilon 0.24283918360699425
+
+50/50 [==============================] - 0s 965us/step - loss: 18.7779 - accuracy: 0.7600
+-----> episode ended 91 and lasted 10.364245891571045 and got the reward -100.0 with epsilon 0.2404107917709243
+
+50/50 [==============================] - 0s 935us/step - loss: 25.9825 - accuracy: 0.7100
+-----> episode ended 92 and lasted 9.671128988265991 and got the reward -100.0 with epsilon 0.23800668385321505
+
+50/50 [==============================] - 0s 961us/step - loss: 28.8083 - accuracy: 0.6000
+-----> episode ended 93 and lasted 10.893472909927368 and got the reward -99.0 with epsilon 0.2356266170146829
+
+50/50 [==============================] - 0s 919us/step - loss: 10.6671 - accuracy: 0.7400
+-----> episode ended 94 and lasted 10.43531084060669 and got the reward -100.0 with epsilon 0.23327035084453607
+
+50/50 [==============================] - 0s 914us/step - loss: 32.3996 - accuracy: 0.7300
+-----> episode ended 95 and lasted 9.775801658630371 and got the reward -100.0 with epsilon 0.2309376473360907
+
+50/50 [==============================] - 0s 972us/step - loss: 7.1880 - accuracy: 0.6900
+-----> episode ended 96 and lasted 10.619821548461914 and got the reward -100.0 with epsilon 0.2286282708627298
+
+50/50 [==============================] - 0s 967us/step - loss: 2.3252 - accuracy: 0.7900
+-----> episode ended 97 and lasted 9.788583278656006 and got the reward -100.0 with epsilon 0.2263419881541025
+
+50/50 [==============================] - 0s 991us/step - loss: 50.5464 - accuracy: 0.8000
+-----> episode ended 98 and lasted 10.072012424468994 and got the reward -100.0 with epsilon 0.22407856827256148
+
+50/50 [==============================] - 0s 924us/step - loss: 28.3467 - accuracy: 0.7700
+-----> episode ended 99 and lasted 10.343031167984009 and got the reward -100.0 with epsilon 0.22183778258983586
+
+~~~ Max_reward: [79, -4.0] ~~~~
+Total rewards for 100 -9891.0
