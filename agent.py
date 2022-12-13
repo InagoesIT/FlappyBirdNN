@@ -77,7 +77,7 @@ class Agent:
                       loss='mse',
                       metrics=['accuracy'])
 
-        # model.load_weights(weights_path)
+        model.load_weights(weights_path)
 
         return model
 

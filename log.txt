@@ -99,7 +99,6 @@
 -----> episode ended 98 and lasted 9.02208924293518 and got the reward -100.0 with epsilon 0.37723664692350434
 -----> episode ended 99 and lasted 9.509601831436157 and got the reward -100.0 with epsilon 0.37346428045426927
 
-
 -----> episode ended 0 and lasted 0.677607536315918 and got the reward -100.0 with epsilon 0.7
 -----> episode ended 1 and lasted 9.484216213226318 and got the reward -100.0 with epsilon 0.693
 -----> episode ended 2 and lasted 8.254204511642456 and got the reward -100.0 with epsilon 0.68607
