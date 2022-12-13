@@ -1,6 +1,5 @@
 from game import Game
 
-
 '''
 RESOURCES USED:
 https://github.com/moduIo/Deep-Q-network/blob/master/DDQN.ipynb

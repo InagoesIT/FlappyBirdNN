@@ -16,7 +16,7 @@ class Agent:
 
         # Q-learning hyperparameters
         self.gamma = 0.95  # Discount rate
-        self.epsilon = 0.6  # Exploration rate
+        self.epsilon = 1  # Exploration rate
         self.epsilon_min = 0.1  # Minimal exploration rate
         self.epsilon_decay = 0.99  # Decay rate for epsilon
 
@@ -69,15 +69,15 @@ class Agent:
     def create_neural_network(weights_path) -> keras.Sequential:
         model = keras.Sequential()
         model.add(layers.Input(8, name="layer1"))
-        model.add(layers.Dense(80, activation="relu", name="layer2"))
-        model.add(layers.Dense(150, activation="relu", name="layer3"))
+        model.add(layers.Dense(56, activation="relu", name="layer2"))
+        model.add(layers.Dense(32, activation="relu", name="layer3"))
         model.add(layers.Dense(2, activation=None, name="layer4"))
 
         model.compile(optimizer='rmsprop',
                       loss='mse',
                       metrics=['accuracy'])
 
-        model.load_weights(weights_path)
+        # model.load_weights(weights_path)
 
         return model
 
