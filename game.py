@@ -16,10 +16,6 @@ class Game:
         self.log_file = "log.txt"
 
     def run(self, episodes):
-        old = dup(1)
-        close(1)
-        open(self.log_file, O_WRONLY)  # should open on 1
-
         max_reward = [0, -100]
         rewards = []
         total_rewards = 0
@@ -62,10 +58,6 @@ class Game:
         self.agent.save_model()
         print(f"~~~ Max_reward: {max_reward} ~~~~")
         print(f"Total rewards for {episodes} {total_rewards}")
-
-        close(1)
-        dup(old)  # should dup to 1
-        close(old)  # get rid of leftovers
 
         plt.plot(range(episodes), rewards)
         plt.ylabel("rewards")

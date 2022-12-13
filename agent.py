@@ -69,8 +69,8 @@ class Agent:
     def create_neural_network(weights_path) -> keras.Sequential:
         model = keras.Sequential()
         model.add(layers.Input(8, name="layer1"))
-        model.add(layers.Dense(56, activation="relu", name="layer2"))
-        model.add(layers.Dense(32, activation="relu", name="layer3"))
+        model.add(layers.Dense(32, activation="relu", name="layer2"))
+        model.add(layers.Dense(18, activation="relu", name="layer3"))
         model.add(layers.Dense(2, activation=None, name="layer4"))
 
         model.compile(optimizer='rmsprop',
