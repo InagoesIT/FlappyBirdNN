@@ -16,7 +16,7 @@ class Agent:
 
         # Q-learning hyperparameters
         self.gamma = 0.95  # Discount rate
-        self.epsilon = 0.6339884914710667  # Exploration rate
+        self.epsilon = 0.5742020104539416 # Exploration rate
         self.epsilon_min = 0.1  # Minimal exploration rate
         self.epsilon_decay = 0.999  # Decay rate for epsilon
 
