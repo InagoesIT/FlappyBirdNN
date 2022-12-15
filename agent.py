@@ -16,9 +16,9 @@ class Agent:
 
         # Q-learning hyperparameters
         self.gamma = 0.95  # Discount rate
-        self.epsilon = 1  # Exploration rate
+        self.epsilon = 0.7  # Exploration rate
         self.epsilon_min = 0.1  # Minimal exploration rate
-        self.epsilon_decay = 0.99  # Decay rate for epsilon
+        self.epsilon_decay = 0.999  # Decay rate for epsilon
 
         self.weight_backup_file = "weights.h5"
         self.model = Agent.create_neural_network(self.weight_backup_file)
